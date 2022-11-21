@@ -1,6 +1,6 @@
 #!/bin/bash
 
-api_name='track_order_detail'
+api_name='instasafe'
 api_version=`date +%Y%m%d%H%M%S`
 
 docker build -t localhost:6666/$api_name:"Release_"$api_version .
